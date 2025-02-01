@@ -1,0 +1,19 @@
+html {
+  scroll-behavior: smooth;
+}
+.fa-star {
+  color: gray;
+}
+
+.checked {
+  color: gold;
+}
+/* Add in index.css for smooth image appearance */
+img {
+  transition: transform 0.2s;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
